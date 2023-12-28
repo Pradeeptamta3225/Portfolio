@@ -17,11 +17,11 @@
 
 
 .container{
-    width: 1200px;
+    width: 1380px;
 }
 
 .navbar{
-    width: 90.43rem;
+    width: 100.47rem;
     position: fixed;
     margin-top: -5.5rem;
     display: flex;
@@ -112,9 +112,9 @@ a{
 }
 
 .hero-section-heading{
-    font-size: 35px;
+    font-size: 3rem;
     color: #343d68;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .role{
@@ -123,12 +123,14 @@ a{
 }
 
 .hero-section-sub-heading{
-    font-size: 45px;
+    font-size: 2.5rem;
+    font-weight: 500;
     line-height: 45px;
 }
 
 
 .hero-section-description{
+    font-size: 1.3rem;
     margin-top: 1rem;
     width: 70%;
     font-weight: 500;
@@ -396,7 +398,7 @@ a{
 }
 
 
-@media (max-width:1300px) {
+@media (max-width:1480px) {
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
